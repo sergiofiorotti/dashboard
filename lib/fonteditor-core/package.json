@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      "fonteditor-core@0.0.3",
+      "C:\\projetos\\linx\\filadavez\\node_modules\\fontmin"
+    ]
+  ],
+  "_from": "fonteditor-core@0.0.3",
+  "_id": "fonteditor-core@0.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fonteditor-core",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "email": "junmer@foxmail.com",
+    "name": "junmer"
+  },
+  "_npmVersion": "2.7.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "fonteditor-core",
+    "raw": "fonteditor-core@0.0.3",
+    "rawSpec": "0.0.3",
+    "scope": null,
+    "spec": "0.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/fontmin"
+  ],
+  "_resolved": "https://registry.npmjs.org/fonteditor-core/-/fonteditor-core-0.0.3.tgz",
+  "_shasum": "bdcc72481db3f9efe68985c28e5883ca22823b94",
+  "_shrinkwrap": null,
+  "_spec": "fonteditor-core@0.0.3",
+  "_where": "C:\\projetos\\linx\\filadavez\\node_modules\\fontmin",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/kekee000/fonteditor-core/issues"
+  },
+  "dependencies": {
+    "xmldom": "~0.1.19"
+  },
+  "description": "fonts (ttf, woff, eot, svg, otf) parse, write, transform. glyph adjust.",
+  "devDependencies": {
+    "b3b": "0.0.1",
+    "esprima": "^2.4.1",
+    "estraverse": "^4.1.0",
+    "pako": "^0.2.7",
+    "phantomjs": "^1.9.17"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "bdcc72481db3f9efe68985c28e5883ca22823b94",
+    "tarball": "http://registry.npmjs.org/fonteditor-core/-/fonteditor-core-0.0.3.tgz"
+  },
+  "edp": {
+    "dependencies": {},
+    "main": "src/main"
+  },
+  "files": [
+    "node"
+  ],
+  "gitHead": "204e728796e7b1046cd7caf9f9818bfdfaac222a",
+  "homepage": "https://github.com/kekee000/fonteditor-core",
+  "keywords": [
+    "editor",
+    "eot",
+    "font",
+    "otf",
+    "sfnt",
+    "svg",
+    "ttf",
+    "woff"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kekee000/fonteditor-core/raw/master/LICENSE"
+    }
+  ],
+  "main": "node/main.js",
+  "maintainers": [
+    {
+      "name": "kekee000",
+      "email": "kekee000@gmail.com"
+    },
+    {
+      "name": "junmer",
+      "email": "junmer@foxmail.com"
+    }
+  ],
+  "name": "fonteditor-core",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kekee000/fonteditor-core.git"
+  },
+  "scripts": {
+    "build": "sh build-node.sh",
+    "test": "phantomjs test/run-jasmine.js test/SpecRunner.html"
+  },
+  "version": "0.0.3"
+}

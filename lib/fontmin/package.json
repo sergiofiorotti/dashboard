@@ -1,0 +1,136 @@
+{
+  "_args": [
+    [
+      "fontmin@^0.9.0-alpha-3",
+      "C:\\projetos\\linx\\filadavez\\node_modules\\gulp-fontmin"
+    ]
+  ],
+  "_from": "fontmin@>=0.9.0-alpha-3 <0.10.0",
+  "_id": "fontmin@0.9.0-alpha-3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fontmin",
+  "_nodeVersion": "0.12.5",
+  "_npmUser": {
+    "email": "junmer@foxmail.com",
+    "name": "junmer"
+  },
+  "_npmVersion": "2.11.2",
+  "_phantomChildren": {
+    "brace-expansion": "1.1.1",
+    "clone-stats": "0.0.1",
+    "duplexify": "3.4.2",
+    "first-chunk-stream": "1.0.0",
+    "gaze": "0.5.2",
+    "glob2base": "0.0.12",
+    "inflight": "1.0.4",
+    "inherits": "2.0.1",
+    "is-utf8": "0.2.0",
+    "merge-stream": "0.1.8",
+    "mkdirp": "0.5.1",
+    "once": "1.3.2",
+    "ordered-read-streams": "0.1.0",
+    "through2": "0.6.5",
+    "through2-filter": "2.0.0"
+  },
+  "_requested": {
+    "name": "fontmin",
+    "raw": "fontmin@^0.9.0-alpha-3",
+    "rawSpec": "^0.9.0-alpha-3",
+    "scope": null,
+    "spec": ">=0.9.0-alpha-3 <0.10.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/gulp-fontmin"
+  ],
+  "_resolved": "https://registry.npmjs.org/fontmin/-/fontmin-0.9.0-alpha-3.tgz",
+  "_shasum": "0a3a1fca9f3069688228a743a2b8d15d3dcf8740",
+  "_shrinkwrap": null,
+  "_spec": "fontmin@^0.9.0-alpha-3",
+  "_where": "C:\\projetos\\linx\\filadavez\\node_modules\\gulp-fontmin",
+  "author": {
+    "name": "junmer"
+  },
+  "bin": {
+    "fontmin": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ecomfe/fontmin/issues"
+  },
+  "dependencies": {
+    "b3b": "0.0.1",
+    "buffer-to-vinyl": "^1.0.0",
+    "concat-stream": "^1.4.6",
+    "fonteditor-core": "0.0.3",
+    "get-stdin": "^4.0.1",
+    "is-otf": "^0.1.1",
+    "is-svg": "^1.1.1",
+    "is-ttf": "^0.2.1",
+    "lodash": "^3.2.0",
+    "meow": "^3.0.0",
+    "pako": "^0.2.6",
+    "replace-ext": "0.0.1",
+    "stream-combiner": "^0.2.1",
+    "through2": "^0.6.1",
+    "vinyl-fs": "^1.0.0"
+  },
+  "description": "Minify font seamlessly, font subsetter, webfont (eot, woff, svg) converter.",
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "gulp-clean": "^0.3.1",
+    "is-eot": "^1.0.0",
+    "is-woff": "^1.0.1",
+    "mocha": "^2.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "0a3a1fca9f3069688228a743a2b8d15d3dcf8740",
+    "tarball": "http://registry.npmjs.org/fontmin/-/fontmin-0.9.0-alpha-3.tgz"
+  },
+  "gitHead": "ff20d92d96f2cd7ef907e72197a95771e7654c27",
+  "homepage": "https://github.com/ecomfe/fontmin#readme",
+  "keywords": [
+    "base64",
+    "compress",
+    "css",
+    "eot",
+    "font",
+    "font-cli",
+    "font-face",
+    "icon",
+    "iconfont",
+    "minify",
+    "otf",
+    "svg",
+    "svg2ttf",
+    "ttf",
+    "ttf2eot",
+    "ttf2svg",
+    "ttf2woff",
+    "webfont",
+    "woff"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "junmer",
+      "email": "junmer@foxmail.com"
+    },
+    {
+      "name": "ecomfe",
+      "email": "ecomfe@gmail.com"
+    }
+  ],
+  "name": "fontmin",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecomfe/fontmin.git"
+  },
+  "scripts": {
+    "test": "mocha --timeout=50000"
+  },
+  "version": "0.9.0-alpha-3"
+}

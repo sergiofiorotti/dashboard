@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      "lxgulpmobile@git+https://Fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git",
+      "C:\\projetos\\linx\\filadavez"
+    ]
+  ],
+  "_from": "git+https://Fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git",
+  "_id": "lxgulpmobile@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/lxgulpmobile",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://bitbucket.org/Fcamaralinx/lxgulpmobile/raw/master/package.json",
+      "httpsUrl": "git+https://Fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git",
+      "shortcut": "bitbucket:Fcamaralinx/lxgulpmobile",
+      "ssh": "git@bitbucket.org:Fcamaralinx/lxgulpmobile.git",
+      "sshUrl": "git+ssh://git@bitbucket.org/Fcamaralinx/lxgulpmobile.git",
+      "type": "bitbucket"
+    },
+    "name": "lxgulpmobile",
+    "raw": "lxgulpmobile@git+https://Fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git",
+    "rawSpec": "git+https://Fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git",
+    "scope": null,
+    "spec": "git+https://Fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://Fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git#22c7af4f6bdc2b8bff0faea9cb971739463f64be",
+  "_shasum": "a4269a928cdd3c0069a59af1e1d5e6dbbdb252ce",
+  "_shrinkwrap": null,
+  "_spec": "lxgulpmobile@git+https://Fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git",
+  "_where": "C:\\projetos\\linx\\filadavez",
+  "author": {
+    "name": "Heitor Estrela"
+  },
+  "dependencies": {
+    "del": "^2.0.2",
+    "fs": "0.0.2",
+    "gulp": "^3.5.6",
+    "gulp-compile-handlebars": "^0.5.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-directory-map": "^0.1.2",
+    "gulp-flatten": "^0.2.0",
+    "gulp-fontmin": "^0.7.2",
+    "gulp-html-replace": "^1.5.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-css": "^0.3.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-shell": "^0.4.3",
+    "gulp-util": "^2.2.14",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.2",
+    "shelljs": "^0.3.0",
+    "underscore": "^1.8.3"
+  },
+  "description": "Pacote das gulp tasks do projeto mobile Linx",
+  "devDependencies": {},
+  "gitHead": "22c7af4f6bdc2b8bff0faea9cb971739463f64be",
+  "homepage": "git://bitbucket.org/Fcamaralinx/lxgulpmobile#readme",
+  "license": "MIT",
+  "name": "lxgulpmobile",
+  "optionalDependencies": {},
+  "readme": "# lxGulpMobile #\r\n\r\nPacote responsável pelas tasks Gulp da aplicação lxBlank.\r\n\r\n### SUMÁRIO ###\r\n\r\n* Instalação\r\n* Version\r\n* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)\r\n\r\n### Instalação ###\r\n\r\nO pacote de gulp, deve ser preferencialmente uma dependência de desenvolvimento:\r\n```\r\n#!javascript\r\nnpm install https://fcamaralinx:fcamara123@bitbucket.org/Fcamaralinx/lxgulpmobile.git --save-dev\r\n```\r\n\r\nNão é necessário configuração se estiver usando a blank.\r\n\r\n### Task ###\r\n\r\n* Writing tests\r\n* Code review\r\n* Other guidelines\r\n\r\n### Who do I talk to? ###\r\n\r\n* Repo owner or admin\r\n* Other community or team contact",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://Fcamaralinx@bitbucket.org/Fcamaralinx/lxgulpmobile.git"
+  },
+  "version": "1.0.0"
+}
